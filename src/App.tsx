@@ -13,15 +13,17 @@ import { menuData } from './data/menuData';
 
 function App() {
   return (
-    <div>
-      <Header/>
-      <Routes>
-        <Route path="/" element={<Home/>} />
-        <Route path="/contact" element={<Contact/>} />
-        <Route path="/menu" element={<Menu menuData={menuData}/>} />
-        <Route path="/about" element={<About/>} />
-      </Routes>
-      <Footer/>
+    <div className="min-h-screen flex flex-col">
+      <Header />
+      <div className="flex-grow">
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/contact" element={<Contact />} />
+          <Route path="/menu" element={<Menu menuData={menuData} />} />
+          <Route path="/about" element={<About />} />
+        </Routes>
+      </div>
+      <Footer />
     </div>
   )
 }

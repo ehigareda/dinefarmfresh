@@ -12,7 +12,7 @@ interface cardProps{
 
 export default function Card({ item }:cardProps){
     return(
-        <div className="bg-orange-100 p-4 rounded-lg shadow-lg flex flex-col items-center">
+        <div className="bg-green-100 p-4 rounded-lg shadow-lg flex flex-col items-center">
             <div>{item.name}</div>
             <div>{item.description}</div>
             <div>{item.price}</div>

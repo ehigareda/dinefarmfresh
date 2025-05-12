@@ -5,6 +5,8 @@
 
 
 @theme inline {
+  --color-lightbeige: #ebdec9;
+  --color-darkgreen: #2e3205;
   --color-midnight: #121063;
   --color-tahiti: #3ab7bf;
   --color-teagreen: #C7EFCF;
@@ -52,7 +54,7 @@
 
 :root {
   --radius: 0.625rem;
-  --background: oklch(1 0 0);
+  --background: var(--color-columbiablue);
   --foreground: oklch(0.145 0 0);
   --card: oklch(1 0 0);
   --card-foreground: oklch(0.145 0 0);
