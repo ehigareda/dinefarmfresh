@@ -21,14 +21,14 @@ export default function Home() {
   ];
 
   return (
-    <section className="min-h-screen bg-columbiablue flex flex-col items-center justify-start py-8">
+    <section className="min-h-screen flex flex-col items-center justify-start py-8">
       <div className="bg-opacity-50 rounded-lg text-center mb-8">
-        <h1 className="text-4xl md:text-6xl text-lapislazuli font-bold mb-4">
-          Dine Farm Fresh
+        <h1 className="text-4xl md:text-6xl text-black font-bold mb-4">
+          The Farm
         </h1>
         <Button
           asChild
-          className="bg-lapislazuli text-white px-6 py-3 rounded-full font-semibold hover:bg-lapislazuli transition"
+          className="bg-black text-white px-6 py-3 rounded-full font-semibold hover:bg-gray-700 transition"
         >
           <NavLink to="/menu">See Menu</NavLink>
         </Button>
@@ -60,12 +60,11 @@ export default function Home() {
         </Carousel>
       </div>
       <div className="mt-8 w-full max-w-3xl mx-auto px-4">
-        <h2 className="text-2xl text-lapislazuli font-semibold mb-4">
+        <h2 className="text-2xl text-black font-semibold mb-4">
           About Our Restaurant
         </h2>
         <p className="text-gray-700">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-        </p>
+        Welcome to The Farm, a family-owned café where fresh ingredients and a warm, inviting atmosphere come together. We’re passionate about serving delicious, handcrafted pizzas and unique custom drinks made with care. Whether you’re here for a quiet morning coffee, a relaxed lunch, or a cozy dinner, The Farm offers a space to unwind and enjoy the taste of fresh, quality food. Rooted in family values and community spirit, our goal is to make every visit feel like home.        </p>
       </div>
     </section>
   );
