@@ -4,12 +4,12 @@ import './App.css'
 // import { Button } from "@/components/ui/button"
 import Header from "@/components/header/header"
 import Footer from "@/components/footer"
-import Contact from "@/pages/ContactPage"
+// import Contact from "@/pages/ContactPage"
 import Home from "@/pages/HomePage"
 import Menu from "@/pages/MenuPage"
-import About from "@/pages/AboutPage"
+// import About from "@/pages/AboutPage"
 
-import { menuData } from './data/menuData';
+// import { menuData } from './data/menuData';
 
 function App() {
   return (
