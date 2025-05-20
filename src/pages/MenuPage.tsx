@@ -42,23 +42,15 @@ export default function MenuPage() {
       
       {/* Menu Images */}
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mt-8">
-        {menuImages.map((src, index) => {
-          const isBreakfast = index === 0;
-          const label = isBreakfast
-            ? `Breakfast page 1`
-            : `Dinner page ${index}`;
-
-          return (
-            <div key={index} className="bg-white p-4 rounded-lg shadow-md">
-              <img 
-                src={src} 
-                alt={`Menu page ${index + 1}`}
-                className="w-full h-auto object-contain rounded"
-              />
-              <p className="text-center mt-4 text-black-800 font-medium">{label}</p>
-            </div>
-          );
-        })}
+        {menuImages.map((src, index) => (
+          <div key={index} className="bg-white p-4 rounded-lg shadow-md">
+            <img 
+              src={src} 
+              alt={`Menu page ${index + 1}`}
+              className="w-full h-auto object-contain rounded"
+            />
+          </div>
+        ))}
       </div>
       
       {/* Download Option - For future implementation */}
