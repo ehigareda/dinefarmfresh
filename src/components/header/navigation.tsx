@@ -16,12 +16,12 @@ export function Navigation(){
                      </NavLink>
                      <span className="block max-w-0 group-hover:max-w-full transition-all duration-300 h-0.5 bg-white"></span>
                 </li> */}
-                <li className="group">
+                {/* <li className="group">
                     <NavLink to="/menu" className={({ isActive, isPending }) => isPending ? "pending" : isActive ? "text-lg font-bold" :"text-lg"}>
                         Menu
                      </NavLink>
                      <span className="block max-w-0 group-hover:max-w-full transition-all duration-300 h-0.5 bg-white"></span>
-                </li>
+                </li> */}
                 {/* <li className="group">
                     <NavLink to="/contact" className={({ isActive, isPending }) => isPending ? "pending" : isActive ? "text-lg font-bold" :"text-lg"}>
                         Contact Us
