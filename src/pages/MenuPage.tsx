@@ -26,9 +26,8 @@
 export default function MenuPage() {
   // In a real application, these would be actual images from your project
   const menuImages = [
-    'images/breakfast1.png',
-    'images/dinner1.png',
-    'images/dinner2.png'
+    'the-farm-menu1.jpg',
+    'the-farm-menu2.jpg',
   ];
   
   return (
