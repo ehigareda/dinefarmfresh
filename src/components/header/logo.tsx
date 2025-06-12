@@ -1,10 +1,10 @@
-import logo from "@/assets/reshot-icon-coffee-cup.svg"
+import logo from "@/assets/tf-logo.png"
 import { NavLink } from "react-router";
 
 export function Logo(){
     return(
         <NavLink to= "/">
-            <img src={logo} alt="Dine Fresh Farm Logo" className="h-13" w-auto/>
+            <img src={logo} alt="Dine Fresh Farm Logo" className="bg-transparent h-20 w-auto"/>
         </NavLink>
     )
 }

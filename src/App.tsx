@@ -7,7 +7,7 @@ import Footer from "@/components/footer"
 // import Contact from "@/pages/ContactPage"
 import Home from "@/pages/HomePage"
 import Menu from "@/pages/MenuPage"
-// import About from "@/pages/AboutPage"
+import About from "@/pages/AboutPage"
 
 // import { menuData } from './data/menuData';
 
@@ -21,7 +21,7 @@ function App() {
           <Route path="/menu" element={<Menu />} />
           {/* <Route path="/contact" element={<Contact />} /> */}
           {/* <Route path="/menu" element={<Menu menuData={menuData} />} /> */}
-          {/* <Route path="/about" element={<About />} /> */}
+          <Route path="/about" element={<About />} />
         </Routes>
       </div>
       <Footer />

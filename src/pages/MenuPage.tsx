@@ -24,10 +24,10 @@
 // }
 // Menu Page Component
 export default function MenuPage() {
-  // In a real application, these would be actual images from your project
+
   const menuImages = [
-    'the-farm-menu1.jpg',
-    'the-farm-menu2.jpg',
+    'images/menu1.jpg',
+    'images/menu2.jpg',
   ];
   
   return (
@@ -35,12 +35,12 @@ export default function MenuPage() {
       <div className="mt-12 mb-8 text-center">
         <h1 className="text-4xl font-bold text-black-900 mb-4">Our Menu</h1>
         <p className="text-xl text-black-800 max-w-2xl mx-auto">
-          Browse our selection of handcrafted beverages, lunch and dinner options, and delectable desserts.
+          Browse our selection of handcrafted beverages, lunch and dinner options, and desserts.
         </p>
       </div>
       
       {/* Menu Images */}
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mt-8">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-8 mt-8">
         {menuImages.map((src, index) => (
           <div key={index} className="bg-white p-4 rounded-lg shadow-md">
             <img 
