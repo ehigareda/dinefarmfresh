@@ -14,10 +14,10 @@ import { Button } from "@/components/ui/button";
 
 export default function Home() {
   const tempImages = [
-    "images/TempImg1.jpg",
-    "images/TempImg2.jpg",
-    "images/TempImg3.jpg",
-    "images/TempImg4.jpg",
+    "images/home-image-1-min.jpg",
+    "images/home-image-4-min.jpg",
+    "images/home-image-6-min.jpg",
+    "images/home-image-7-min.jpg",
   ];
 
   return (
@@ -58,16 +58,8 @@ export default function Home() {
           <CarouselPrevious className="left-2" />
           <CarouselNext className="right-2" />
         </Carousel>
-        <div className="mt-8 w-full max-w-3xl mx-auto px-4">
-        <h2 className="text-2xl text-black font-semibold mb-4">
-          Website under construction
-        </h2>
-        </div>
       </div>
       <div className="mt-8 w-full max-w-3xl mx-auto px-4">
-        <h2 className="text-2xl text-black font-semibold mb-4">
-          About Our Restaurant
-        </h2>
         <p className="text-gray-700">
         Welcome to The Farm, a family-owned café where fresh ingredients and a warm, inviting atmosphere come together. We’re passionate about serving delicious, handcrafted pizzas and unique custom drinks made with care. Whether you’re here for a quiet morning coffee, a relaxed lunch, or a cozy dinner, The Farm offers a space to unwind and enjoy the taste of fresh, quality food. Rooted in family values and community spirit, our goal is to make every visit feel like home.        </p>
       </div>
