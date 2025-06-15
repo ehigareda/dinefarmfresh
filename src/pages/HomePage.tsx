@@ -26,12 +26,13 @@ export default function Home() {
         <h1 className="text-4xl md:text-6xl text-black font-bold mb-4">
           The Farm
         </h1>
-        <Button
-          asChild
-          className="bg-black text-white px-6 py-3 rounded-full font-semibold hover:bg-gray-700 transition"
-        >
-          <NavLink to="/menu">See Menu</NavLink>
-        </Button>
+        <a href="https://order.toasttab.com/online/the-farm-fresh-2450-park-blvd?diningOption=takeout&rwg_token=ACgRB3fvQEFwvW2g7njpOu9ADeVaVYhX-rLQocFp3s1iMnBrTVbGfBOiPuxfZNCIqgpCBCLug0Y_M9U1GVVDbPTfXmM16TU6Mw%3D%3D">
+                        <Button className="mt-4 w-full rounded-full bg-darkgreen text-white font-semibold hover:bg-gray-700 transition shadow-md/40">
+                            Order Online
+                        </Button>
+                    </a>
+
+
       </div>
       
       {/* Width-limited carousel */}
@@ -61,7 +62,7 @@ export default function Home() {
       </div>
       <div className="mt-8 w-full max-w-3xl mx-auto px-4">
         <p className="text-gray-700">
-        Welcome to The Farm, a family-owned café where fresh ingredients and a warm, inviting atmosphere come together. We’re passionate about serving delicious, handcrafted pizzas and unique custom drinks made with care. Whether you’re here for a quiet morning coffee, a relaxed lunch, or a cozy dinner, The Farm offers a space to unwind and enjoy the taste of fresh, quality food. Rooted in family values and community spirit, our goal is to make every visit feel like home.        </p>
+        Welcome to The Farm, a family-owned café where fresh ingredients and a warm, inviting atmosphere come together. We’re passionate about serving delicious, handcrafted entrees and unique custom drinks made with care. Whether you’re here for a quiet morning coffee, a relaxed lunch, or a cozy dinner, The Farm offers a space to unwind and enjoy the taste of fresh, quality food. Rooted in family values and community spirit, our goal is to make every visit feel like home.        </p>
       </div>
     </section>
   );
