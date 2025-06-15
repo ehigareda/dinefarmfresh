@@ -1,6 +1,5 @@
 "use client";
 
-import { NavLink } from "react-router";
 import {
   Carousel,
   CarouselContent,
@@ -27,12 +26,10 @@ export default function Home() {
           The Farm
         </h1>
         <a href="https://order.toasttab.com/online/the-farm-fresh-2450-park-blvd?diningOption=takeout&rwg_token=ACgRB3fvQEFwvW2g7njpOu9ADeVaVYhX-rLQocFp3s1iMnBrTVbGfBOiPuxfZNCIqgpCBCLug0Y_M9U1GVVDbPTfXmM16TU6Mw%3D%3D">
-                        <Button className="mt-4 w-full rounded-full bg-darkgreen text-white font-semibold hover:bg-gray-700 transition shadow-md/40">
-                            Order Online
-                        </Button>
-                    </a>
-
-
+          <Button className="mt-4 w-full rounded-full bg-darkgreen text-white font-semibold hover:bg-gray-700 transition shadow-md/40">
+              Order Online
+          </Button>
+        </a>
       </div>
       
       {/* Width-limited carousel */}
