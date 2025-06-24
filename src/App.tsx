@@ -1,4 +1,5 @@
 // import { useState } from 'react'
+import { Analytics } from "@vercel/analytics/react"
 import { Routes, Route, } from "react-router-dom"
 import './App.css'
 // import { Button } from "@/components/ui/button"
@@ -25,6 +26,7 @@ function App() {
         </Routes>
       </div>
       <Footer />
+      <Analytics/>
     </div>
   )
 }
