@@ -1,7 +1,7 @@
 
 export default function About() {
     return (
-      <div className="flex flex-col items-center min-h-screen ">
+      <div className="flex flex-col items-center min-h-screen font-secondary">
         <div className="text-center mt-8 w-full max-w-3xl mx-auto px-4">
           <h2 className="text-2xl font-semibold mb-4">
           2450 Park Blvd, Palo Alto

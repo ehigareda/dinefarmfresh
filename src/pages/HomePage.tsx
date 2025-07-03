@@ -1,42 +1,50 @@
 "use client";
 
-import {
-  Carousel,
-  CarouselContent,
-  CarouselDots,
-  CarouselItem,
-  CarouselNext,
-  CarouselPrevious,
-} from "@/components/ui/carousel";
-import Autoplay from "embla-carousel-autoplay";
-import { Button } from "@/components/ui/button";
+// import { NavLink } from "react-router";
+// import {
+//   Carousel,
+//   CarouselContent,
+//   CarouselDots,
+//   CarouselItem,
+//   CarouselNext,
+//   CarouselPrevious,
+// } from "@/components/ui/carousel";
+// import Autoplay from "embla-carousel-autoplay";
+// import { Button } from "@/components/ui/button";
 
 export default function Home() {
-  const tempImages = [
-    "images/home-image-1-min.jpg",
-    "images/home-image-4-min.jpg",
-    "images/home-image-6-min.jpg",
-    "images/home-image-7-min.jpg",
-  ];
+  // const tempImages = [
+  //   "images/home-image-1-min.jpg",
+  //   "images/home-image-4-min.jpg",
+  //   "images/home-image-6-min.jpg",
+  //   "images/home-image-7-min.jpg",
+  // ];
 
   return (
-    <section className="min-h-screen flex flex-col items-center justify-start py-8">
-      <div className="bg-opacity-50 rounded-lg text-center mb-8">
-        <h1 className="text-4xl md:text-6xl text-black font-bold mb-4">
-          The Farm
+    <>
+    <section className="font-secondary min-h-screen flex flex-col items-center justify-start">
+        <div className="w-full mx-auto">
+        </div>
+        <div className="bg-opacity-50 rounded-lg text-center ">
+        {/* <h1 className="font-primary text-4xl md:text-6xl text-black font-bold mb-4">
+          THE FARM
         </h1>
-        <a href="https://order.toasttab.com/online/the-farm-fresh-2450-park-blvd?diningOption=takeout&rwg_token=ACgRB3fvQEFwvW2g7njpOu9ADeVaVYhX-rLQocFp3s1iMnBrTVbGfBOiPuxfZNCIqgpCBCLug0Y_M9U1GVVDbPTfXmM16TU6Mw%3D%3D">
-          <Button className="mt-4 w-full rounded-full bg-darkgreen text-white font-semibold hover:bg-gray-700 transition shadow-md/40">
-              Order Online
-          </Button>
-        </a>
-      </div>
+        <Button
+          asChild
+          className="bg-black text-white px-6 py-3 rounded-full font-semibold hover:bg-gray-700 transition"
+        >
+          <NavLink to="/menu">See Menu</NavLink>
+        </Button> */}
+
+        </div>
       
       {/* Width-limited carousel */}
       {/* <div className="w-full max-w-3xl mx-auto px-4"> */}
       {/* Width takes up screen carousel */}
       <div className="w-full mx-auto">
-        <Carousel
+      <img className="w-full h-72 md:h-108 object-cover" src="images/IMG_0884-2-min.jpg" alt="The Farm Building Photo"></img>
+
+        {/* <Carousel
           opts={{ loop: true }}
           plugins={[Autoplay({ delay: 6000 })]}
           className="overflow-hidden"
@@ -55,12 +63,53 @@ export default function Home() {
           <CarouselDots className="py-2" />
           <CarouselPrevious className="left-2" />
           <CarouselNext className="right-2" />
-        </Carousel>
-      </div>
-      <div className="mt-8 w-full max-w-3xl mx-auto px-4">
-        <p className="text-gray-700">
-        Welcome to The Farm, a family-owned café where fresh ingredients and a warm, inviting atmosphere come together. We’re passionate about serving delicious, handcrafted entrees and unique custom drinks made with care. Whether you’re here for a quiet morning coffee, a relaxed lunch, or a cozy dinner, The Farm offers a space to unwind and enjoy the taste of fresh, quality food. Rooted in family values and community spirit, our goal is to make every visit feel like home.        </p>
+        </Carousel> */}
       </div>
     </section>
+    
+    <section className="w-full bg-resedagreen text-white py-16 px-6 md:px-12">
+    <div className="max-w-7xl mx-auto flex flex-col-reverse md:flex-row items-center gap-10">
+      
+      {/* Left: Text */}
+      <div className="w-full md:w-1/2">
+        <h2 className="text-3xl md:text-5xl font-primary font-bold mb-4">
+          Tucked Away in Palo Alto...
+        </h2>
+        <p className="text-lg leading-relaxed font-secondary">
+          Discover a cozy corner in the heart of the city, where family and freshness are at the heart of everything we serve. Whether you're stopping by for a morning coffee or unwinding over a handcrafted pizza, The Farm brings a touch of home to every bite.
+        </p>
+      </div>
+  
+      {/* Right: Image */}
+      <div className="w-full md:w-1/2">
+        <img
+          src="images/IMG_0792-min.jpg"
+          alt="The Farm café exterior"
+          className="w-full h-auto max-h-160 rounded-lg shadow-lg object-cover"
+        />
+      </div>
+    </div>
+    </section>
+    <div className="max-w-7xl mx-auto flex flex-col md:flex-row items-center gap-10">
+  {/* Left: Image */}
+  <div className="w-full md:w-1/2">
+    <img
+      src="images/IMG_0786-min.jpg"
+      alt="Kitchen with coffee beans"
+      className="w-full h-auto max-h-192 rounded-lg shadow-lg object-cove"
+    />
+  </div>
+
+  {/* Right: Text */}
+  <div className="w-full md:w-1/2">
+    <h2 className="text-3xl md:text-5xl font-primary font-bold mb-4">
+      Farm to Filter
+    </h2>
+    <p className="text-lg leading-relaxed font-secondary">
+    We proudly brew ALTImpact Coffee, a Bay Area-based roaster committed not only to high quality beans, but to a mission. All of our coffee is organic, ethically sourced, and deeply rooted in community impact.    </p>
+  </div>
+</div>
+
+  </>
   );
 }
