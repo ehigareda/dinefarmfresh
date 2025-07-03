@@ -19,9 +19,9 @@ export default function Header(){
         <header className={`w-full sticky top-0 py-4 z-50 transition-all duration-300 ${scrolled ? "bg-resedagreen":"bg-transparent"}`}>
             <div className="relative container mx-auto flex items-center justify-between px-4">
                 {/* <Logo/> */}
-                <h1 className="text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-primary text-black font-bold z-10 flex-shrink-0">
+                <h1 className="flex items-center text-2xl md:text-3xl lg:text-4xl xl:text-5xl font-primary text-black font-bold z-10 flex-shrink-0 gap-4">
                     {/* THE <Logo/> FARM */}
-                    <Logo/>
+                    <Logo/> THE FARM 
                 </h1>
                 <div     className={`absolute left-1/2 top-1/2 transform -translate-y-1/2 hidden md:block ${
                                 scrolled ? "text-white" : "text-black"
