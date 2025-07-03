@@ -23,21 +23,6 @@ export default function Home() {
   return (
     <>
     <section className="font-secondary min-h-screen flex flex-col items-center justify-start">
-        <div className="w-full mx-auto">
-        </div>
-        <div className="bg-opacity-50 rounded-lg text-center ">
-        {/* <h1 className="font-primary text-4xl md:text-6xl text-black font-bold mb-4">
-          THE FARM
-        </h1>
-        <Button
-          asChild
-          className="bg-black text-white px-6 py-3 rounded-full font-semibold hover:bg-gray-700 transition"
-        >
-          <NavLink to="/menu">See Menu</NavLink>
-        </Button> */}
-
-        </div>
-      
       {/* Width-limited carousel */}
       {/* <div className="w-full max-w-3xl mx-auto px-4"> */}
       {/* Width takes up screen carousel */}
