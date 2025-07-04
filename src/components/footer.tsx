@@ -1,6 +1,6 @@
 export default function Footer(){
     return (
-      <footer className="bg-black text-white py-4 border-t border-gray-700">
+      <footer className="bg-jetblack text-white py-4 border-t border-gray-700">
         <div className="max-w-7xl mx-auto flex items-center justify-between px-4 py-4 md:px-8">
             <div className="text-sm">
                 <p >&copy; 2025 The Farm. All rights reserved.</p>

@@ -28,6 +28,8 @@ export default function MenuPage() {
   const menuImages = [
     'images/menu1.jpg',
     'images/menu2.jpg',
+    'images/menu3.jpg',
+    'images/menu4.jpg'
   ];
   
   return (

@@ -19,7 +19,7 @@ export default function Header(){
         <header className={`w-full sticky top-0 py-4 z-50 transition-all duration-300 ${scrolled ? "bg-resedagreen":"bg-transparent"}`}>
             <div className="relative container mx-auto flex items-center justify-between px-4">
                 {/* <Logo/> */}
-                <h1 className="flex items-center text-2xl md:text-3xl lg:text-4xl xl:text-5xl font-primary text-black font-bold z-10 flex-shrink-0 gap-4">
+                <h1 className={`flex items-center text-2xl md:text-3xl lg:text-4xl xl:text-5xl font-primary text-black font-bold z-10 flex-shrink-0 gap-4 ${scrolled ? "text-white":"text-jetblack"}`}>
                     {/* THE <Logo/> FARM */}
                     <Logo/> THE FARM 
                 </h1>
@@ -36,7 +36,7 @@ export default function Header(){
                     </a>
                 </div> */}
                 <button 
-                className="md:hidden text-black"
+                className={`md:hidden ${scrolled ? "text-white":"text-jetblack"}`}
                 onClick={()=>setMenuOpen(!menuOpen)}
                 aria-label="Toggle Menu">
                     {menuOpen ? <X size={28}/> : <Menu size={28}/>}
