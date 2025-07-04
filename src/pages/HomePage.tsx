@@ -1,24 +1,24 @@
 "use client";
 
-import { NavLink } from "react-router";
-import {
-  Carousel,
-  CarouselContent,
-  CarouselDots,
-  CarouselItem,
-  CarouselNext,
-  CarouselPrevious,
-} from "@/components/ui/carousel";
-import Autoplay from "embla-carousel-autoplay";
-import { Button } from "@/components/ui/button";
+// import { NavLink } from "react-router";
+// import {
+//   Carousel,
+//   CarouselContent,
+//   CarouselDots,
+//   CarouselItem,
+//   CarouselNext,
+//   CarouselPrevious,
+// } from "@/components/ui/carousel";
+// import Autoplay from "embla-carousel-autoplay";
+// import { Button } from "@/components/ui/button";
 
 export default function Home() {
-  const tempImages = [
-    "images/home-image-1-min.jpg",
-    "images/home-image-4-min.jpg",
-    "images/home-image-6-min.jpg",
-    "images/home-image-7-min.jpg",
-  ];
+  // const tempImages = [
+  //   "images/home-image-1-min.jpg",
+  //   "images/home-image-4-min.jpg",
+  //   "images/home-image-6-min.jpg",
+  //   "images/home-image-7-min.jpg",
+  // ];
 
   return (
     <>
