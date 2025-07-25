@@ -56,7 +56,7 @@ export default function Home() {
         </Carousel>
       </div> */}
     
-    <section className="w-full bg-resedagreen text-white py-16 px-6 md:px-12">
+    <section className="w-full bg-white text-black py-16 px-6 md:px-12">
         <div className="max-w-7xl mx-auto flex flex-col-reverse md:flex-row items-center gap-10">
           {/* Left: Text */}
           <div className="w-full md:w-1/2">
@@ -78,7 +78,7 @@ export default function Home() {
           </div>
         </div>
       </section>
-    <section className="w-full bg-gray-50 py-16 px-6 md:px-12">
+    <section className="w-full bg-resedagreen py-16 px-6 md:px-12 text-white">
         <div className="max-w-7xl mx-auto flex flex-col md:flex-row items-center gap-10">
           {/* Left: Image */}
           <div className="w-full md:w-1/2">
@@ -97,6 +97,66 @@ export default function Home() {
             <p className="text-base md:text-lg leading-relaxed font-secondary">
               We proudly brew ALTImpact Coffee, a Bay Area-based roaster committed not only to high quality beans, but to a mission. All of our coffee is organic, ethically sourced, and deeply rooted in community impact.
             </p>
+          </div>
+        </div>
+      </section>
+<section className="w-full bg-gray-50 py-16 px-6 md:px-12">
+        <div className="max-w-7xl mx-auto">
+          {/* Section Header */}
+          <div className="text-center mb-12">
+            <h2 className="text-3xl md:text-5xl font-primary font-bold mb-4">
+              Fresh. Made. Daily.
+            </h2>
+            <p className="text-lg leading-relaxed font-secondary max-w-3xl mx-auto">
+From sizzling burgers to crisp salads, artisan pizzas, hearty wraps, and freshly brewed coffee, we've got something for every craving.</p>
+          </div>
+
+          {/* Food Photo Gallery */}
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+            {/* Replace these src paths with your actual food photos */}
+            <div className="group overflow-hidden rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300">
+              <img
+                src="images/food-photo-1.jpg"
+                alt="Handcrafted pizza with fresh toppings"
+                className="w-full h-64 object-cover group-hover:scale-105 transition-transform duration-300"
+              />
+            </div>
+            <div className="group overflow-hidden rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300">
+              <img
+                src="images/food-photo-2.jpg"
+                alt="Fresh salad with local ingredients"
+                className="w-full h-64 object-cover group-hover:scale-105 transition-transform duration-300"
+              />
+            </div>
+            <div className="group overflow-hidden rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300">
+              <img
+                src="images/food-photo-3.jpg"
+                alt="Daily special dish"
+                className="w-full h-64 object-cover group-hover:scale-105 transition-transform duration-300"
+              />
+            </div>
+            <div className="group overflow-hidden rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300">
+              <img
+                src="images/food-photo-4.jpg"
+                alt="Artisan sandwich with fresh ingredients"
+                className="w-full h-64 object-cover group-hover:scale-105 transition-transform duration-300"
+              />
+            </div>
+            <div className="group overflow-hidden rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300">
+              <img
+                src="images/food-photo-7.jpg"
+                alt="Seasonal soup with local produce"
+                className="w-full h-64 object-cover group-hover:scale-105 transition-transform duration-300"
+              />
+            </div>
+            <div className="group overflow-hidden rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300">
+              <img
+                src="images/food-photo-6.jpg"
+                alt="Freshly baked pastries"
+                className="w-full h-64 object-cover group-hover:scale-105 transition-transform duration-300"
+              />
+            </div>
+            
           </div>
         </div>
       </section>

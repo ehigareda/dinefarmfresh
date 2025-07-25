@@ -8,7 +8,8 @@ import Footer from "@/components/footer"
 // import Contact from "@/pages/ContactPage"
 import Home from "@/pages/HomePage"
 import Menu from "@/pages/MenuPage"
-import About from "@/pages/AboutPage"
+import VisitUs from "@/pages/VisitUsPage"
+import FAQ from "@/pages/FAQPage"
 
 // import { menuData } from './data/menuData';
 
@@ -22,7 +23,9 @@ function App() {
           <Route path="/menu" element={<Menu />} />
           {/* <Route path="/contact" element={<Contact />} /> */}
           {/* <Route path="/menu" element={<Menu menuData={menuData} />} /> */}
-          <Route path="/about" element={<About />} />
+          <Route path="/visit-us" element={<VisitUs />} />
+          <Route path="/faq" element={<FAQ />} />
+
         </Routes>
       </div>
       <Footer />
