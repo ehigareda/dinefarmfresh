@@ -24,8 +24,10 @@ export default function Footer(){
             </div>
             <div className="text-sm space-y-3">
             <p><strong>Hours</strong></p>
-            <p>Mon-Fri: 7am – 9pm</p>
-            <p>Sat-Sun: 8am – 9pm</p>
+            <p>Monday - Tuesday: 7:30 AM - 6:00 PM</p>
+            <p>Wednesday - Friday: 7:30 AM - 8:00 PM</p>
+            <p>Saturday: 8:00 AM - 8:00 PM</p>
+            <p>Sunday: 8:00 AM - 6:00 PM</p>
             </div>
             <div className="text-sm space-y-3">
                 <p><strong>Socials</strong></p>

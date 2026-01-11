@@ -32,8 +32,10 @@ export default function VisitUs() {
         <div>
           <h3 className="text-2xl font-semibold mb-2">Hours of Operation</h3>
           <ul className="space-y-1">
-            <li>Mon - Fri: 7:00 AM - 9:00 PM</li>
-            <li>Sat - Sun: 8:00 AM - 9:00 PM</li>
+            <li>Monday - Tuesday: 7:30 AM - 6:00 PM</li>
+            <li>Wednesday - Friday: 7:30 AM - 8:00 PM</li>
+            <li>Saturday: 8:00 AM - 8:00 PM</li>
+            <li>Sunday: 8:00 AM - 6:00 PM</li>
           </ul>
         </div>
       </section>
