@@ -10,6 +10,8 @@ import Home from "@/pages/HomePage"
 import Menu from "@/pages/MenuPage"
 import VisitUs from "@/pages/VisitUsPage"
 import FAQ from "@/pages/FAQPage"
+import Cater from "@/pages/GatheringsReservationsPage"
+
 
 // import { menuData } from './data/menuData';
 
@@ -25,6 +27,7 @@ function App() {
           {/* <Route path="/menu" element={<Menu menuData={menuData} />} /> */}
           <Route path="/visit-us" element={<VisitUs />} />
           <Route path="/faq" element={<FAQ />} />
+          <Route path="/catering-events" element={<Cater />} />
 
         </Routes>
       </div>
